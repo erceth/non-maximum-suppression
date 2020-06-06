@@ -1,0 +1,17 @@
+{
+  "name": "non-maximum-suppression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-nms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvLibDir": "/Users/ericethington/pyimagsearch/opencv/build/lib",
+    "opencvBinDir": "/Users/ericethington/pyimagsearch/opencv/build/bin"
+  }
+}
