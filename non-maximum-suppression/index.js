@@ -7,16 +7,14 @@ module.exports = (foundLocations, overlapThresh) => {
   const pick = [];
   
   foundLocations = foundLocations.map(box => { // TODO: replace with vectorization
-    const width = (box[2] - box[0]) || box.width;
-    const height = (box[3] - box[1]) || box.height;
     return {
-      x1: box[0] || box.x,
-      y1: box[1] || box.y,
-      x2: box[2] || box.x + width,
-      y2: box[3] || box.y + height,
-      width,
-      height,
-      area: (height + 1) * (width + 1)
+      x1: box.x,
+      y1: box.y,
+      x2: box.x + box.width,
+      y2: box.y + box.height,
+      width: box.width,
+      height: box.height,
+      area: (box.height + 1) * (box.width + 1)
     }
   });
 
