@@ -1,5 +1,4 @@
-// https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf
-const nms = require('./non-maximum-suppression');
+const nms = require('./nms');
 
 const fs = require('fs');
 const NS_PER_SEC = 1e9

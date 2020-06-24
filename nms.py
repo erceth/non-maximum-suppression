@@ -1,4 +1,5 @@
-# https://www.pyimagesearch.com/2014/11/17/non-maximum-suppression-object-detection-python/
+# code from: https://www.pyimagesearch.com/2014/11/17/non-maximum-suppression-object-detection-python/
+
 # import the necessary packages
 import numpy as np
 
