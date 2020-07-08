@@ -1,17 +1,22 @@
 {
   "name": "@erceth/non-maximum-suppression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "non maximum suppression in node",
   "main": "nms.js",
   "scripts": {
     "test": "node test-nms.js"
   },
-  "keywords": [],
+  "keywords": ["non-maximum suppression"],
   "author": "Eric Ethington",
   "license": "ISC",
   "opencv4nodejs": {
     "disableAutoBuild": 1,
     "opencvLibDir": "/Users/ericethington/pyimagsearch/opencv/build/lib",
     "opencvBinDir": "/Users/ericethington/pyimagsearch/opencv/build/bin"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/erceth/non-maximum-suppression.git"
   }
+  
 }
